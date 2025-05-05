@@ -233,7 +233,7 @@ a.btn-send:hover {
 	background:rgba(248, 248, 248, 0);
 	border:rgba(248, 248, 248, 0);*/
 	background-color: #6fd6d6;
-	border-color: #07eded;
+	border-color: #6fd6d6;;
 	
 	padding:5px 5px;
 }
@@ -272,7 +272,8 @@ ul.nav li.active a:before {
 	opacity:1;
 }
 .on {
-	background:rgba(0, 0, 0, 0.8);
+	/* background:rgba(0, 0, 0, 0.8);*/
+	background-color: #bee3fd;
 	transition:all 0.3s;
 	-moz-transition: all 0.3s;
 	-o-transition: all 0.3s;
