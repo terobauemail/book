@@ -250,14 +250,14 @@ a.navbar-brand img {
 }
 #menu ul.nav li a {
 	font-size:15px;
-	color:#fff;
+	color:#064D79;
 }
 #menu .nav > li > a {
 	background:none;
-	color: #fff;
+	color: #064D79;
 }
 #menu ul.nav li a:hover, #menu ul.nav li a.active {
-	color:#e73131;
+	color:#064D79;
 	transition:all 0.4s;
 }
 #menu .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -426,7 +426,7 @@ ul.nav li.active a:before {
 }
 /*Background-stylesheets-include-here*/
 .bg-sec {
-	background:#e73131;
+	background:#bee3fd;
 	margin-top:10px;
 	padding: 1% 0%;
 }
