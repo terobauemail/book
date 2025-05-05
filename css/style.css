@@ -229,8 +229,12 @@ a.btn-send:hover {
 }
 /*Navigation-stylesheets-include-here*/
 .navbar-default {
+	/*Changeing bar color
 	background:rgba(248, 248, 248, 0);
-	border:rgba(248, 248, 248, 0);
+	border:rgba(248, 248, 248, 0);*/
+	background-color: #6fd6d6;
+	border-color: #07eded;
+	
 	padding:5px 5px;
 }
 a.navbar-brand img {
