@@ -1360,4 +1360,21 @@ font-weight:bolder;
 color:#fff;
 }
 
+.fade-text {
+  opacity: 1;
+  animation: fadeEffect 3s ease-in-out infinite;
+}
+
+@keyframes fadeEffect {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 /*Basic-Stylesheets-End-Here*/
