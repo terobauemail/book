@@ -1361,20 +1361,15 @@ color:#fff;
 }
 
 .fade-text {
-  opacity: 1;
-  animation: fadeEffect 3s ease-in-out infinite;
+  animation: fadeOut 3s ease-in-out forwards;
 }
 
-@keyframes fadeEffect {
-  0% {
-    opacity: 0;
-  }
-  50% {
+@keyframes fadeOut {
+  from {
     opacity: 1;
   }
-  100% {
+  to {
     opacity: 0;
   }
 }
-
 /*Basic-Stylesheets-End-Here*/
