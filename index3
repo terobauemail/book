@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<!--
+	Cosmix by TEMPLATE STOCK
+	templatestock.co @templatestock
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>NiSu Bookkeeping</title>
+<!--Bootstrap-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<!--Stylesheets-->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--Responsive-->
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<!--Animation-->
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<!--Prettyphoto-->
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<!--Font-Awesome-->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<!--Owl-Slider-->
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+<link rel="stylesheet" type="text/css" href="css/owl.transitions.css">
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  [endif]-->
+
+/* New add of font for logo*/
+
+<script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  [endif]-->
+  <style>
+    @font-face {
+      font-family: 'MyCustomFont';
+      src: url('fonts/Viaoda Libre.ttf') format('truetype');
+    }
+  </style>
+
+	
+</head>
+<body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+<!--Preloader-->
+<div id="preloader">
+  <div id="pre-status">
+    <div class="preload-placeholder"></div>
+  </div>
+</div>
+<!--Navigation-->
+<header id="menu">
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        
+	<a class="navbar-brand" href="#menu" style="text-align: center;  display: flex; justify-content: center; align-items: left;"><img src="images/Logo/01.png" alt=""><span style="font-family: 'MyCustomFont', sans-serif;color: #064D79;font-size: 45px;"><br> NiSu Books</span></a> </div>
+	      
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a class="scroll" href="#menu">Home</a></li>
+            <li><a class="scroll" href="#about">About</a></li>
+            <li><a class="scroll" href="#service">Service</a></li>
+            <li><a class="scroll" href="#pricing">Pricing</a></li>
+            <li><a class="scroll" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </div>
+  </div>
+</header>
+<!--Slider-Start-->
+<section id="slider">
+  <div id="home-carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="item active" style="background-image:url(images/Slider/01.jpg)">
+        <div class="carousel-caption container">
+          <div class="row">
+            <div class="col-md-7 col-sm-12 col-xs-12">
+              <h1>Personalized Service</h1>
+              <h2></h2>
+              <p>Clients work directly with the business owner, ensuring personalized attention, consistent communication, and tailored solutions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="background-image:url(images/Slider/02.jpg)">
+        <div class="carousel-caption container">
+          <div class="row">
+            <div class="col-md-7 col-sm-12 col-xs-12">
+              <h1>Comprehensive Service Offerings</h1>
+              <h2></h2>
+              <p>Wide range of services, including accounts payable/receivable, bank reconciliation, financial reporting, tax preparation support, and QuickBooks Online setup/training.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item" style="background-image:url(images/Slider/03.jpg)">
+        <div class="carousel-caption container">
+          <div class="row">
+             <div class="col-md-7 col-sm-12 col-xs-12">
+              <h1>Educational Approach</h1>
+              <h2></h2>
+              <p>Offers QuickBooks Online training and personalized KPI reports to empower clients with greater financial understanding and control.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="home-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a> <a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a> </div>
+  </div>
+  <!--/#home-carousel-->
+</section>
+<!--About-Section-Start-->
+<section id="about">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="heading">
+        <h2>ABOUT <span>US</span></h2>
+        <div class="line"></div>
+        </div>
+    </div>
+<div class="row">
+      <div class="col-md-12 ab-sec">
+        <div class="col-md-6">
+          <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms"><span>W</span>e Are Creative And Awesome</h3>
+          <p><span><strong>N</strong></span>i<span><strong>S</strong></span>u provide specialized financial solutions tailored to small businesses, with expertise in serving restaurants and wholesale companies. Our services include managing high-volume transactions, creating customized financial reports, supporting tax preparation, and providing budgeting insights to help your business thrive.</p>
+<p>What sets us apart is our personalized approach. As a business owner, we work closely with each client to ensure their unique financial needs are met with care and precision. With transparent pricing and a commitment to excellence, NiSu Bookkeeping is here to empower your business with reliable, accurate bookkeeping services.</p>
+<p>Partner with NiSu Bookkeeping to streamline your finances, improve efficiency, and focus on growing your busines. </p>
+        </div>
+        <div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Aboutus/01.jpg" alt=""> </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Service-Section-Start-->
+<section id="service">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="heading">
+        <h2>OUR SERVI<span>CE</span></h2>
+        <div class="line"></div>
+        <p>Streamline your finances with our professional bookkeeping services, including transaction categorization, bank reconciliation, and monthly financial reporting. Keep your business running smoothly while focusing on <br>what you do best.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="features-sec">
+                
+        <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+          <div class="media service-box">
+            <div class="pull-left"> <i class="fa fa-pie-chart"></i> </div>
+            <div class="media-body">
+              <h5 class="media-heading">Bank Reconciliation</h5>
+              <p>Ensure accuracy and prevent errors with our bank reconciliation services. We match your records with bank statements for a clear financial picture and reduced discrepancies.</p>
+            </div>
+          </div>
+        </div>
+        <!--/.col-md-4-->
+        <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+          <div class="media service-box">
+            <div class="pull-left"> <i class="fa fa-bar-chart"></i> </div>
+            <div class="media-body">
+              <h5 class="media-heading">Budgeting & Forecasting</h5>
+              <p>
+Plan your financial future with expert budgeting and forecasting. Our insights help you allocate resources wisely, set achievable goals, and prepare for growth opportunities.</p>
+            </div>
+          </div>
+        </div>
+        <!--/.col-md-4-->
+
+  <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+          <div class="media service-box">
+            <div class="pull-left"> <i class="fa fa-bar-chart"></i> </div>
+            <div class="media-body">
+              <h5 class="media-heading">Accounts Payable & Receivable Management</h5>
+              <p>Stay on top of your cash flow with accurate management of accounts payable and receivable. We ensure your bills are paid on time, and invoices are properly tracked for better financial health.</p>
+            </div>
+          </div>
+        </div>
+        <!--/.col-md-4-->
+
+
+
+  <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+          <div class="media service-box">
+            <div class="pull-left"> <i class="fa fa-bar-chart"></i> </div>
+            <div class="media-body">
+              <h5 class="media-heading">Financial Reporting</h5>
+              <p>Resolve past bookkeeping errors with our book cleanup services. We identify discrepancies, reorganize records, and provide you with accurate financial statements.</p>
+            </div>
+          </div>
+        </div>
+        <!--/.col-md-4-->
+
+
+
+  <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+          <div class="media service-box">
+            <div class="pull-left"> <i class="fa fa-bar-chart"></i> </div>
+            <div class="media-body">
+              <h5 class="media-heading">One - Time Book Cleanup</h5>
+              <p>Resolve past bookkeeping errors with our book cleanup services. We identify discrepancies, reorganize records, and provide you with accurate financial statements.</p>
+            </div>
+          </div>
+        </div>
+        <!--/.col-md-4-->
+       
+
+ <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
+          <div class="media service-box">
+            <div class="pull-left"> <i class="fa fa-language"></i> </div>
+            <div class="media-body">
+              <h5 class="media-heading">Tax Preparation Support</h5>
+              <p>Simplify tax season with our tax preparation support. We organize your financial records and collaborate with your CPA to ensure compliance and maximum deductions.</p>
+            </div>
+          </div>
+        </div>
+        <!--/.col-md-4-->
+        <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
+          <div class="media service-box">
+            <div class="pull-left"> <i class="fa fa-bullseye"></i> </div>
+            <div class="media-body">
+              <h5 class="media-heading">Cost Control & Analysis</h5>
+              <p>Optimize your expenses with our cost control services. We analyze your financials to identify saving opportunities and improve profitability.</p>
+            </div>
+          </div>
+        </div>
+
+
+<div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+          <div class="media service-box">
+            <div class="pull-left"> <i class="fa fa-cubes"></i> </div>
+            <div class="media-body">
+              <h5 class="media-heading">Monthly KPI Reports</h5>
+              <p>Monitor your business’s performance with custom KPI reports. We provide actionable insights tailored to your industry to help you track progress and meet objectives.</p>
+            </div>
+          </div>
+        </div>
+        <!--/.col-md-4-->
+
+
+<div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+          <div class="media service-box">
+            <div class="pull-left"> <i class="fa fa-cubes"></i> </div>
+            <div class="media-body">
+              <h5 class="media-heading">QuickBooks Online Setup & Training</h5>
+              <p>Transition to QuickBooks Online seamlessly with our setup and training services. Learn to navigate the platform and maximize its features for efficient bookkeeping.</p>
+            </div>
+          </div>
+        </div>
+        <!--/.col-md-4-->
+</section>
+<!--Pricing-Section-Start-->
+<section id="pricing">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="heading">
+        <h2>PRICE PACKAG<span>ES</span></h2>
+        <div class="line"></div>
+        <p>                          </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
+          <ul class="pricing">
+            <li class="plan-header">
+              <div class="price-duration">
+                <div class="price"> $250 </div>
+                <div class="duration"> per month </div>
+              </div>
+              <div class="plan-name"> Starter Plan </div>
+            </li>
+            <li>ACCOUNTS PAYABLE/RECEIVABLE</li>
+            <li>BANK RECONCILIATION</li>
+            <li>MONTHLY FINANCIAL REPORTS</li>
+	    <li>24 hour or less respond time</li>
+	    <li>Note: Pricing may vary based on transaction volume.</li>
+            
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
+          <ul class="pricing">
+            <li class="plan-header">
+              <div class="price-duration">
+                <div class="price"> $400 </div>
+                <div class="duration"> per month </div>
+              </div>
+              <div class="plan-name"> Growth Plan </div>
+            </li>
+            <li>EVERYTHING IN THE STARTER PLAN</li>
+            <li>BUDGETING AND FORECASTING</li>
+            <li>MONTHLY KPI REPORTS</li>
+            <li>COST CONTROL ANALYSIS</li>
+	    <li>24 hour or less respond time</li>
+            <li>Note: Pricing may vary based on transaction volume.</li>
+            
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
+          <ul class="pricing">
+            <li class="plan-header">
+              <div class="price-duration">
+                <div class="price"> $700 </div>
+                <div class="duration"> per month </div>
+              </div>
+              <div class="plan-name"> Comprehensive Plan </div>
+            </li>
+            <li>EVERYTHING IN THE GROWTH PLAN</li>
+            <li>TAX PREPARATION SUPPORT</li>
+            <li>CLEANING AND ORGANIZING HISTORICAL BOOKS</li>
+            <li>QUICKBOOKS ONLINE SETUP AND TRAINING</li>
+	    <li>24 hour or less respond time</li>
+            <li>Note: Pricing may vary based on transaction volume.</li>
+            
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="600ms">
+          <ul class="pricing">
+            <li class="plan-header">
+              <div class="price-duration">
+                <div class="price"> Custom </div>
+                <div class="duration">  </div>
+              </div>
+              <div class="plan-name"> Custom Plans </div>
+            </li>
+            <li>Personalized quote based on your specific requirements and transaction volume.</li>
+	    <li>24 hour or less respond time</li>
+
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--Contact-Section-Start-->
+<section id="contact">
+  <div class="container">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="heading">
+        <h2>CONTACT <span>US</span></h2>
+        <div class="line"></div>
+        <p><span><strong>Have questions or ready to get started? We’re here to help!</p>
+      </div>
+    </div>
+    <div class="text-center">
+      <div class="col-md-6 col-sm-6 contact-sec-1">
+        <h4>CONTACT IN<span>FO</span></h4>
+        <ul class="contact-form">
+          <li><i class="fa fa-map-marker"></i>
+            <h6><strong>Address:</strong> Based in Queens, New York (Serving clients remotely and hybrid in NYC) </h6>
+          </li>
+          <li><i class="fa fa-envelope"></i>
+            <h6><strong>Mail Us:</strong> <a href="#">nisubookkeeping@gmail.com</a></h6>
+          </li>
+          <li><i class="fa fa-phone"></i>
+            <h6><strong>Phone:</strong> +1 516-953-9475 </h6>
+          </li>
+          <li><i class="fa fa-wechat"></i>
+            <h6><strong>Website:</strong> <a href="#">niranjanjoshi.com.np</a> </h6>
+          </li>
+        </ul>
+      </div>
+      
+</section>
+<footer id="footer">
+  <div class="bg-sec">
+    <div class="container">
+      <h2>LOOKING FORWARD TO <strong>HEARING </strong>FROM YOU!</h2>
+    </div>
+  </div>
+</footer>
+<footer id="footer-down">
+  <h2>Follow Us On</h2>
+  <ul class="social-icon">
+    <li class="facebook hvr-pulse"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+    <li class="twitter hvr-pulse"><a href="#"><i class="fa fa-twitter"></i></a></li>
+    <li class="linkedin hvr-pulse"><a href="#"><i class="fa fa-linkedin"></i></a></li>    
+    <li class="youtube hvr-pulse"><a href="#"><i class="fa fa-youtube"></i></a></li>
+    <li class="instagram hvr-pulse"><a href="#"><i class="fa fa-instagram"></i></a></li>
+  </ul>
+  <p> &copy; Copyright 2016 Cosmix - Created By : <a href="http://templatestock.co" target="_blank">Template Stock</a> </p>
+</footer>
+<!--Jquery-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!--Boostrap-Jquery-->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!--Preetyphoto-Jquery-->
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<!--NiceScroll-Jquery-->
+<script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
+<!--Isotopes-->
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<!--Wow-Jquery-->
+<script type="text/javascript" src="js/wow.js"></script>
+<!--Count-Jquey-->
+<script type="text/javascript" src="js/jquery.countTo.js"></script>
+<script type="text/javascript" src="js/jquery.inview.min.js"></script>
+<!--Owl-Crousels-Jqury-->
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+<!--Main-Scripts-->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
+<!-- Hosting24 Analytics Code -->
+<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
+<!-- End Of Analytics Code -->
