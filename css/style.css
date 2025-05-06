@@ -1361,15 +1361,6 @@ color:#fff;
 }
 
 .fade-text {
-  animation: fadeOut 3s ease-in-out forwards;
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
+  opacity: 0.2; /* Adjust the value between 0 (invisible) and 1 (fully visible) */
 }
 /*Basic-Stylesheets-End-Here*/
